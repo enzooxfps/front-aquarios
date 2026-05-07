@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | Vetro Vidro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Vetro<span>Vidro</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html" class="active-link">Produtos</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Nosso Catálogo</h1>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="peixes">Peixes</button>
+                <button class="filter-btn" data-filter="aquarios">Aquários</button>
+                <button class="filter-btn" data-filter="filtros">Filtros</button>
+                <button class="filter-btn" data-filter="luminarias">Luminárias</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="products-grid" id="mainGrid"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vetro Vidro - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

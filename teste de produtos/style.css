@@ -1,0 +1,69 @@
+:root {
+    --primary: #004684;
+    --secondary: #00bcd4;
+    --white: #ffffff;
+    --bg: #f4f9ff;
+    --text: #333;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* Navbar Corrigida */
+.navbar {
+    padding: 15px 0;
+    background: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky; top: 0; z-index: 100;
+}
+.navbar .container { display: flex; justify-content: space-between; align-items: center; }
+.nav-links { display: flex; list-style: none; gap: 25px; }
+.nav-links a { text-decoration: none; color: var(--primary); font-weight: 500; }
+.active-link { color: var(--secondary) !important; font-weight: 700 !important; }
+
+/* Header e Filtros */
+.page-header { padding: 40px 0; text-align: center; }
+.filters { display: flex; justify-content: center; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+.filter-btn { 
+    padding: 8px 20px; border-radius: 50px; border: 2px solid var(--primary);
+    background: transparent; color: var(--primary); cursor: pointer; font-weight: 600;
+}
+.filter-btn.active { background: var(--primary); color: white; }
+
+/* Grid de Produtos Corrigido */
+.products-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 25px; 
+    padding-bottom: 50px;
+}
+
+.product-card {
+    background: var(--white); border-radius: 20px; overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 70, 132, 0.05); transition: 0.3s;
+    text-align: center;
+}
+.product-card:hover { transform: translateY(-10px); }
+
+.product-img { 
+    height: 180px; background: #e0e7ff; 
+    display: flex; align-items: center; justify-content: center; 
+}
+.product-icon { font-size: 3rem; }
+
+/* Se quiseres usar as fotos reais como tinhas antes: */
+.acara .product-img { background-image: url('teu-link-aqui'); background-size: cover; }
+.acara .product-icon { display: none; } /* Esconde o emoji se houver foto */
+
+.product-info { padding: 20px; }
+.product-info h3 { font-size: 1rem; color: var(--primary); margin-bottom: 10px; }
+.price { display: block; font-size: 1.2rem; font-weight: 700; color: var(--secondary); margin-bottom: 15px; }
+
+.btn-buy { 
+    display: inline-block; padding: 10px 25px; background: var(--primary); 
+    color: white; text-decoration: none; border-radius: 50px; font-weight: 600;
+}
+.btn-buy:hover { background: var(--secondary); }
+
+footer { padding: 40px; text-align: center; color: #888; }
