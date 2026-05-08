@@ -1,16 +1,17 @@
 const listaProdutos = [
     // --- PEIXES (10 itens) ---
-    { id: 1, cat: "peixes", classe: "acara", nome: "Acará Disco Blue", preco: "180,00", icon: "🐠" },
-    { id: 2, cat: "peixes", classe: "neon", nome: "Neon Cardinal", preco: "4,50", icon: "🐟" },
-    { id: 3, cat: "peixes", classe: "bandeira", nome: "Bandeira Marmorato", preco: "28,00", icon: "🐠" },
-    { id: 4, cat: "peixes", classe: "guppy", nome: "Guppy Show", preco: "15,00", icon: "🐟" },
-    { id: 5, cat: "peixes", classe: "molinesia", nome: "Molinésia Negra", preco: "12,00", icon: "🐠" },
-    { id: 6, cat: "peixes", classe: "betta", nome: "Betta Halfmoon Special", preco: "45,00", icon: "🐟" },
-    { id: 7, cat: "peixes", classe: "corydora", nome: "Corydora Albina", preco: "12,00", icon: "🐡" },
-    { id: 8, cat: "peixes", classe: "kinguio", nome: "Kinguio Oranda Red", preco: "85,00", icon: "🐠" },
-    { id: 9, cat: "peixes", classe: "mato-grosso", nome: "Mato Grosso Véu", preco: "8,00", icon: "🐟" },
-    { id: 10, cat: "peixes", classe: "ramirezi", nome: "Ramirezi Electric Blue", preco: "35,00", icon: "🐠" },
-    
+    const listaProdutos = [
+    // --- PEIXES (10 itens) ---
+    { id: 1, cat: "peixes", classe: "acara", nome: "Acará Disco Blue", preco: "180,00", icon: "🐠", Image: "pexels-soc-nang-d-ng-2150345854-35337885.jpg"},
+    { id: 2, cat: "peixes", classe: "neon", nome: "Neon Cardinal", preco: "4,50", icon: "🐟", Image:"pexels-andromeda99-36851956.jpg" },
+    { id: 3, cat: "peixes", classe: "bandeira", nome: "Bandeira Marmorato", preco: "28,00", icon: "🐠", Image:"pexels-andromeda99-36180419.jpg" },
+    { id: 4, cat: "peixes", classe: "guppy", nome: "Guppy Show", preco: "15,00", icon: "🐟", Image:"pexels-kushgaurav-36426327.jpg" },
+    { id: 5, cat: "peixes", classe: "molinesia", nome: "Molinésia Negra", preco: "12,00", icon: "🐠", Image: "pexels-dio-arapogiannis-40036220-7254934.jpg" },
+    { id: 6, cat: "peixes", classe: "betta", nome: "Betta Halfmoon Special", preco: "45,00", icon: "🐟", Image: "pexels-d-minh-ha-tu-n-2147504760-29704986.jpg" },
+    { id: 7, cat: "peixes", classe: "corydora", nome: "Corydora Albina", preco: "12,00", icon: "🐡", Image: "pexels-michal-petras-2152077115-32224426.jpg" },
+    { id: 8, cat: "peixes", classe: "kinguio", nome: "Kinguio Oranda Red", preco: "85,00", icon: "🐠", Image: "pexels-richard-l-2150581203-34443284.jpg" },
+    { id: 9, cat: "peixes", classe: "mato-grosso", nome: "Mato Grosso Véu", preco: "8,00", icon: "🐟", Image: "tetra_matogrosso_super_veu_3_a_4_cm_hyphessobrycon_eques_maravilhoso_105_1_57f441d0d9bab7a7fb1a06cc3f77f5f1.webp" },
+    { id: 10, cat: "peixes", classe: "ramirezi", nome: "Ramirezi Electric Blue", preco: "35,00", icon: "🐠", Image: "ramirezi_eletric_blue_koi_mikrogeophagus_ramirezi_4335_1_1ab06b03d91ca8ff17dc8cd641678b92" },
     // --- AQUÁRIOS (10 itens) ---
     { id: 41, cat: "aquarios", classe: "extra-clear-10", nome: "Extra Clear 10L", preco: "110,00", icon: "💎" },
     { id: 42, cat: "aquarios", classe: "extra-clear-20", nome: "Extra Clear 20L", preco: "190,00", icon: "💎" },
