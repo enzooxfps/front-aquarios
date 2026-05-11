@@ -44,9 +44,9 @@ const listaProdutos = [
     { id: 115, cat: "luminarias", classe: "led-actinica", nome: "LED Actínica (Azul)", preco: "110,00", icon: "🔵", Image:"led_actinica_azul.webp" },
     { id: 116, cat: "luminarias", classe: "spot-plantado", nome: "Spot Plantado 10W", preco: "95,00", icon: "🌱", Image:"iluminaria_spot_10W_led.jpeg" },
     { id: 117, cat: "luminarias", classe: "clipe-led", nome: "Clipe LED Nano", preco: "35,00", icon: "📎", Image:"iluminaria_spot_10W_led.jpeg"},
-    { id: 118, cat: "luminarias", classe: "calha-dupla", nome: "Calha Dupla T5 LED", preco: "220,00", icon: "📏", Imagem:"" },
-    { id: 119, cat: "luminarias", classe: "led-noturno", nome: "Moonlight Noturna", preco: "55,00", icon: "🌙" },
-    { id: 120, cat: "luminarias", classe: "aquario-full", nome: "Painel Full Spectrum", preco: "650,00", icon: "☀️" }
+    { id: 118, cat: "luminarias", classe: "calha-dupla", nome: "Calha Dupla T5 LED", preco: "220,00", icon: "📏", Imagem:"calha_dupla.webp" },
+    { id: 119, cat: "luminarias", classe: "led-noturno", nome: "Moonlight Noturna", preco: "55,00", icon: "🌙", Imagem:"iluminaria_lua.jpg" },
+    { id: 120, cat: "luminarias", classe: "aquario-full", nome: "Painel Full Spectrum", preco: "650,00", icon: "☀️", Imagem:"painel_full_spectrum.jpeg" }
 ];
 function renderizarProdutos(produtosFiltrados) {
     const grid = document.getElementById('mainGrid');
